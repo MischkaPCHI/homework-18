@@ -56,8 +56,14 @@ button{
     border-color: transparent;
 }
 
+.h1_footer {
+    text-indent: 15px;
+    margin: 10px 0;
+}
+
 .button_footer {
     font-size: 16px;
+    text-indent: 15px;
 }
 
 .img{
