@@ -35,10 +35,10 @@ const objects = {
  };
 
  const arrayWithObjects = (obj) => {
-    return Object.keys(obj).map(i => ({
-        name: obj[i].name,
-        age: obj[i].age,
-        id: i
+    return Object.keys(obj).map(key => ({
+        name: obj[key].name,
+        age: obj[key].age,
+        id: key
     }))
  }
 
